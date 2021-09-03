@@ -1,1 +1,23 @@
-console.log('Connected1');
+function runGame() {
+
+}
+
+function checkResult() {
+
+}
+
+function playerWin() {
+
+}
+
+function playerLose() {
+
+}
+
+function playerDraw() {
+
+}
+
+function incrementScore() {
+
+}

@@ -16,36 +16,52 @@ body {
 /* Game Layout */
 
 .game-area {
-    background-color: aquamarine;
+    background-color: #CFDFFF;
     box-sizing: border-box;
     width: 85%;
     height: 65vh;
-    max-height: 500px;
+    max-height: 550px;
     max-width: 850px;
     margin-left: auto;
     margin-right: auto;
-    padding: 1%;
+    padding: 4%;
 }
 
 .controls {
     font-size: 2.5rem;
     margin-left: 0.5rem;
-    margin-right: 0.5rem;    
+    margin-right: 0.5rem;
+    color: #454545;   
 }
+
+.fa-hand-rock {
+    background-color: #f2d649;
+}
+
+.fa-hand-paper {
+    background-color: #04d9c4;
+}
+
+.fa-hand-scissors {
+    background-color: #ecbbf2;
+}
+
 
 .message {
     font-size: 1.5rem;
 }
 
 .player-area {
-    background-color: blue;
+    background-color: white;
+    padding-top: 1rem;
     width: 50%;
     float: left;
     font-size: 1rem;
 }
 
 .computer-area {
-    background-color: green;
+    background-color: white;
+    padding-top: 1rem;
     width: 50%;
     float: right;
     font-size: 1rem;
