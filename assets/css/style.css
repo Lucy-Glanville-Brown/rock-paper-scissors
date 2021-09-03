@@ -2,5 +2,61 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&family=Lobster&display=swap');
 
 body {
-    background-color: blue;
+    background-color:white;
+    font-family: "Lobster", sans-serif;
+    color: #454545;
+    text-align: center;
 }
+
+.heading {
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+/* Game Layout */
+
+.game-area {
+    background-color: aquamarine;
+    box-sizing: border-box;
+    width: 85%;
+    height: 65vh;
+    max-height: 500px;
+    max-width: 850px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1%;
+}
+
+.controls {
+    font-size: 2.5rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;    
+}
+
+.message {
+    font-size: 1.5rem;
+}
+
+.player-area {
+    background-color: blue;
+    width: 50%;
+    float: left;
+    font-size: 1rem;
+}
+
+.computer-area {
+    background-color: green;
+    width: 50%;
+    float: right;
+    font-size: 1rem;
+}
+
+img {
+    width: 80%;
+    height: 80%;
+}
+
+.instructions {
+
+}
+
