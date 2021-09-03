@@ -27,25 +27,37 @@ body {
     padding: 4%;
 }
 
-.controls {
-    font-size: 2.5rem;
+.btn {
+    font-family: "Lobster", sans-serif;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    border: none;
+    font-size: 2rem;
     margin-left: 0.5rem;
     margin-right: 0.5rem;
-    color: #454545;   
+    color: #454545; 
+    width: 25%;
+    height: 30%;
 }
 
-.fa-hand-rock {
+button::after {
+    content: attr(data-type);
+    font-size: 0.6rem;
+    position: relative;
+    display: block;
+}
+
+.btn--yellow {
     background-color: #f2d649;
 }
 
-.fa-hand-paper {
+.btn--green {
     background-color: #04d9c4;
 }
 
-.fa-hand-scissors {
+.btn--pink {
     background-color: #ecbbf2;
 }
-
 
 .message {
     font-size: 1.5rem;
