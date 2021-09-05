@@ -27,43 +27,46 @@ body {
     padding: 4%;
 }
 
-.btn {
+button {
     font-family: "Lobster", sans-serif;
     text-transform: capitalize;
     letter-spacing: 1px;
     border: none;
-    font-size: 2rem;
+    font-size: 1rem;
     margin-left: 0.5rem;
     margin-right: 0.5rem;
     color: #454545; 
     width: 25%;
     height: 30%;
+    background-color: white;
 }
 
+/*
 button::after {
     content: attr(data-type);
     font-size: 0.6rem;
     position: relative;
     display: block;
 }
+*/
 
-.btn--yellow {
+.fa-hand-rock {
     background-color: #f2d649;
 }
 
-.btn--green {
+.fa-hand-paper {
     background-color: #04d9c4;
 }
 
-.btn--pink {
+.fa-hand-scissors {
     background-color: #ecbbf2;
 }
 
-.message {
-    font-size: 1.5rem;
+#messages {
+    font-size: 1rem;
 }
 
-.player-area {
+.player {
     background-color: white;
     padding-top: 1rem;
     width: 50%;
@@ -71,7 +74,7 @@ button::after {
     font-size: 1rem;
 }
 
-.computer-area {
+.computer {
     background-color: white;
     padding-top: 1rem;
     width: 50%;

@@ -12,27 +12,29 @@
         <h1 class="heading">Rock Paper Scissors</h1>
     </header>
     <section class="game-area">
-        <div class="controls-area">
-            <button data-type="rock" class="btn btn--yellow">
+        <div>
+            <button id="rock" class="control">Rock 
                 <i class="far fa-hand-rock"></i>
             </button>
-            <button data-type="paper" class="btn btn--green">
+            <button id="paper" class="control">Paper 
                 <i class="far fa-hand-paper"></i>
             </button>
-            <button data-type="scissors" class="btn btn--pink">
+            <button id="scissors" class="control">Scissors 
                 <i class="far fa-hand-scissors"></i>
             </button>
         </div>
-        <div class="message">
-            <p>Message</p>
+        <div id="messages">
+            <h2>Result: <span id="result"></span></h2>
         </div>
-        <div class="player-area">
-            <img src="assets/images/rps.png" alt="shows rock, paper and scissor hand signals" id="user-choice">
-            <p>Your Score: <span id="score">0</span></p>
+        <div class="player">
+            <p>Your Choice: <br><span id="user-choice"></span></p>
+            <img src="assets/images/rps.png" alt="shows rock, paper and scissor hand signals" id="player-image">
+            <p class="scores">Your Score: <span id="player-score">0</span></p>
         </div>
-        <div class="computer-area">
-            <img src="assets/images/rps.png" alt="shows rock, paper and scissor hand signals" id="computer-choice">
-            <p>Computer Score: <span id="score">0</span></p>
+        <div class="computer">
+            <p>Computer Choice: <br><span id="computer-choice"></span></p>
+            <img src="assets/images/rps.png" alt="shows rock, paper and scissor hand signals" id="computer-image">
+            <p class="scores">Computer Score: <span id="computer-score">0</span></p>
         </div>
         <div class="instructions">
             <h3>How to play</h3>
