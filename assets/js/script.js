@@ -66,6 +66,7 @@ function getResult() {
       result = "You lost!"
    }
    resultDisplay.innerHTML = result
+   incrementScore()
 }
 
 /**
@@ -97,4 +98,18 @@ function getResult() {
    if (computerChoice === 'scissors')
      computerImage.src = `assets/images/scissors.png`;
      computerImage.alt = 'scissors';
+ }
+
+ /**
+  * Gets the current score from the DOM and increments it by 1
+  */
+ function incrementScore() {
+    let playerScore = document.getElementById('player-score').innerText;    
+    let computerScore = document.getElementById('computer-score').innerText;
+
+    if (result === "You win!")
+    document.getElementById('player-score').innerText = ++playerScore;
+
+    if (result === "You lost!")
+    document.getElementById('computer-score').innerText = ++computerScore;
  }
