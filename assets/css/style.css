@@ -4,7 +4,7 @@
 body {
     background-color:white;
     font-family: "Lobster", sans-serif;
-    color: #454545;
+    color: #262223;
     text-align: center;
 }
 
@@ -19,7 +19,7 @@ body {
     background-color: #CFDFFF;
     box-sizing: border-box;
     width: 85%;
-    height: 65vh;
+    height: 70vh;
     max-height: 550px;
     max-width: 850px;
     margin-left: auto;
@@ -27,7 +27,7 @@ body {
     padding: 4%;
 }
 
-button {
+.control {
     font-family: "Lobster", sans-serif;
     text-transform: capitalize;
     letter-spacing: 1px;
@@ -35,20 +35,11 @@ button {
     font-size: 1rem;
     margin-left: 0.5rem;
     margin-right: 0.5rem;
-    color: #454545; 
+    color: #262223; 
     width: 25%;
     height: 30%;
     background-color: white;
 }
-
-/*
-button::after {
-    content: attr(data-type);
-    font-size: 0.6rem;
-    position: relative;
-    display: block;
-}
-*/
 
 .fa-hand-rock {
     background-color: #f2d649;
@@ -87,7 +78,76 @@ img {
     height: 80%;
 }
 
-.instructions {
-
+/* the modal button */
+#open {
+    margin: 1rem;
+    background-color: #04d9c4;
+    font-family: 'Lobster';
+    color: #262223;
 }
+
+/* the modal (background) */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+}
+
+/* Modal Header */
+.modal-header {
+    background-color: #04d9c4;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+  }
+
+  .modal-header h3 {
+      margin: 0;
+  }
+
+  /* The Close Button */
+  .close {
+    color: #404040;
+    float: right;
+    font-size: 2rem;
+    font-weight: bold;
+    line-height: 1rem;
+
+  }
+
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+/* Modal Content */
+.modal-content {
+    background-color: white;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+  }
+
+.modal-content h4 {
+    margin: 0;
+}
+
+.modal-content p {
+    font-family: 'Lato', sans-serif;
+    font-size: 1rem;
+}
+
+
+  
+
 

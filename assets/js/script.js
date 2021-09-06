@@ -1,7 +1,7 @@
 const computerChoiceDisplay = document.getElementById('computer-choice')
 const userChoiceDisplay = document.getElementById('user-choice')
 const resultDisplay = document.getElementById('result')
-const possibleChoices = document.querySelectorAll('button')
+const possibleChoices = document.querySelectorAll('.control')
 const userImage = document.getElementById('player-image')
 const computerImage = document.getElementById('computer-image')
 let userChoice
@@ -10,7 +10,7 @@ let result
 const choices = ['rock', 'paper', 'scissors']
 
 /**
- * Add event listener for all buttons
+ * Add event listener for all control buttons
  */
 possibleChoices.forEach(possibleChoice => possibleChoice.addEventListener('click', (event) => {
    userChoice = event.target.id
@@ -113,3 +113,29 @@ function getResult() {
     if (result === "You lost!")
     document.getElementById('computer-score').innerText = ++computerScore;
  }
+
+ // Get the modal
+var modal = document.getElementById("myModal");
+
+// Get the button that opens the modal
+var btn = document.getElementById("open");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks the button, open the modal 
+btn.onclick = function() {
+  modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
