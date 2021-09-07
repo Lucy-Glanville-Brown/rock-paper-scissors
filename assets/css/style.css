@@ -18,7 +18,7 @@ body {
 .game-area {
     background-color: #CFDFFF;
     box-sizing: border-box;
-    width: 85%;
+    width: 90%;
     height: 70vh;
     max-height: 550px;
     max-width: 850px;
@@ -39,6 +39,7 @@ body {
     width: 25%;
     height: 30%;
     background-color: white;
+    padding: 0;
 }
 
 .fa-hand-rock {
@@ -57,6 +58,11 @@ body {
     font-size: 1rem;
 }
 
+#messages h2{
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
 .player {
     background-color: white;
     padding-top: 1rem;
@@ -73,9 +79,22 @@ body {
     font-size: 1rem;
 }
 
+.player p, .computer p {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+#user-choice, #computer-choice {
+    text-transform: capitalize;
+}
+
 img {
     width: 80%;
     height: 80%;
+}
+
+.instructions {
+    float: none;
 }
 
 /* the modal button */
@@ -104,7 +123,7 @@ img {
     background-color: #04d9c4;
     margin: auto;
     padding: 20px;
-    border: 1px solid #888;
+    border: 1px solid #262223;
     width: 80%;
   }
 
@@ -147,7 +166,29 @@ img {
     font-size: 1rem;
 }
 
+/* media queries */
 
-  
+/* For larger to extra large screens size from 1200px wide and up */
+@media screen and (min-width: 1200px) {
 
+    .game-area {
+        min-height: 750px;
+        min-width: 1000px;
+        padding: 2%;
+    }
 
+    .control {
+        font-size: 1.5rem;
+    }
+
+    #messages {
+        font-size: 1.5rem;
+    }
+
+    .player, .computer {
+        font-size: 1.5rem;
+    }
+
+    #open, .modal, .modal-content p{
+        font-size: 1.5rem;
+    }
