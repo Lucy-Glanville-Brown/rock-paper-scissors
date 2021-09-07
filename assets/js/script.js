@@ -139,3 +139,40 @@ window.onclick = function(event) {
     modal.style.display = "none";
   }
 }
+
+/**
+ * Timer to start when user clicks on button
+ */
+
+const timer = document.getElementById('timer')
+let timerInterval;
+
+function startTimer() {
+   clearInterval();
+   let second = 0;
+   let minute = 0;
+   let hour = 0;
+
+   timerInterval = setInterval(function() {
+      timer.innerHTML = 
+        (hour ? hour + ':' : '') +
+        (minute < 10 ? '0' + minute : minute) +
+        ':' +
+        (second < 10 ? '0' + second : second);
+        second++;
+        if (second == 60) {
+           minute++;
+           second = 0;
+        }
+        if (minute == 60) {
+           hour++;
+           minute = 0;
+        }
+   }, 1000);
+};
+
+function stopTimer() {
+   clearInterval(timerInterval)
+}
+
+
