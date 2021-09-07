@@ -141,7 +141,7 @@ window.onclick = function(event) {
 }
 
 /**
- * Timer to start when user clicks on button
+ * Timer to start/stop when user clicks on button
  */
 
 const timer = document.getElementById('timer')
