@@ -39,19 +39,43 @@ body {
     width: 25%;
     height: 30%;
     background-color: white;
-    padding: 0;
+    padding: 5px 0 5px 0;
 }
 
 .fa-hand-rock {
     background-color: #f2d649;
+    border-radius: 100%;
+    padding: 5px;
 }
 
 .fa-hand-paper {
     background-color: #04d9c4;
+    border-radius: 100%;
+    padding: 5px;
 }
 
 .fa-hand-scissors {
     background-color: #ecbbf2;
+    border-radius: 100%;
+    padding: 5px;
+}
+
+#rock {
+    box-shadow: 3px 3px #f2d649;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+#paper {
+    box-shadow: 3px 3px #04d9c4;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+#scissors {
+    box-shadow: 3px 3px #ecbbf2;
+    border-radius: 3px;
+    cursor: pointer;
 }
 
 #messages {
