@@ -10,7 +10,7 @@ body {
 
 .heading {
     text-align: center;
-    font-size: 2.5rem;
+    font-size: 2rem;
 }
 
 /* Game Layout */
@@ -19,7 +19,7 @@ body {
     background-color: #CFDFFF;
     box-sizing: border-box;
     width: 90%;
-    height: 75vh;
+    height: 55vh;
     max-height: 550px;
     max-width: 850px;
     margin-left: auto;
