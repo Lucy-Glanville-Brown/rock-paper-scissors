@@ -124,7 +124,7 @@ hr {
     align-items: center;
 }
 
-.timer-container h4{
+.timer-container h4 {
     margin-top: 0.5rem;
     margin-bottom: 0.5rem;
 }
@@ -187,28 +187,28 @@ hr {
     padding: 20px;
     border: 1px solid #262223;
     width: 80%;
-  }
+}
 
-  .modal-header h3 {
-      margin: 0;
-  }
+.modal-header h3 {
+    margin: 0;
+}
 
-  /* The Close Button */
-  .close {
+/* The Close Button */
+.close {
     color: #404040;
     float: right;
     font-size: 2rem;
     font-weight: bold;
     line-height: 1rem;
+}
 
-  }
-
-  .close:hover,
-  .close:focus {
+.close:hover,
+.close:focus {
     color: #000;
     text-decoration: none;
     cursor: pointer;
-  }
+    font-weight: bolder;
+}
 
 /* Modal Content */
 .modal-content {
@@ -217,7 +217,7 @@ hr {
     padding: 20px;
     border: 1px solid #888;
     width: 80%;
-  }
+}
 
 .modal-content h4 {
     margin: 0;
@@ -260,3 +260,4 @@ hr {
     #open, .modal, .modal-content p{
         font-size: 2rem;
     }
+}
