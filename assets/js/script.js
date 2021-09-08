@@ -49,18 +49,21 @@ function getResult() {
    }
    if (computerChoice === 'rock' && userChoice === 'paper') {
       result = "You win!"
+      stopTimer()
    }
    if (computerChoice === 'rock' && userChoice === 'scissors') {
       result = "You lost!"
    }
    if (computerChoice === 'paper' && userChoice === 'scissors') {
       result = "You win!"
+      stopTimer()
    }
    if (computerChoice === 'paper' && userChoice === 'rock') {
       result = "You lost!"
    }
    if (computerChoice === 'scissors' && userChoice === 'rock') {
       result = "You win!"
+      stopTimer()
    }
    if (computerChoice === 'scissors' && userChoice === 'paper') {
       result = "You lost!"
@@ -148,7 +151,7 @@ const timer = document.getElementById('timer')
 let timerInterval;
 
 function startTimer() {
-   clearInterval();
+   clearInterval(timerInterval);
    let second = 0;
    let minute = 0;
    let hour = 0;
@@ -172,7 +175,9 @@ function startTimer() {
 };
 
 function stopTimer() {
-   clearInterval(timerInterval)
+   clearInterval(timerInterval);
 }
+
+
 
 
