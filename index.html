@@ -11,8 +11,10 @@
     <header>
         <h1 class="heading">Rock Paper Scissors</h1>
     </header>
+    <!-- main game area -->
     <section class="game-area">
         <div>
+            <!-- control buttons -->
             <button id="rock" class="control">Rock <br>
                 <i class="far fa-hand-rock"></i>
             </button>
@@ -23,27 +25,34 @@
                 <i class="far fa-hand-scissors"></i>
             </button>
         </div>
+        <!-- message area -->
         <div id="messages">
             <h2>Result: <span id="result"></span></h2>
             <p>Time taken: <span id="timer">00:00</span></p>
         </div>
+        <!-- player area -->
         <div class="player">
             <p>Your Choice: <br><span id="user-choice"></span></p>
             <img src="assets/images/rps.png" alt="shows rock, paper and scissor hand signals" id="player-image">
             <p class="scores">Your Score: <br><span id="player-score">0</span></p>
         </div>
+        <!-- computer area -->
         <div class="computer">
             <p>Computer Choice: <br><span id="computer-choice"></span></p>
             <img src="assets/images/rps.png" alt="shows rock, paper and scissor hand signals" id="computer-image">
             <p class="scores">Computer Score: <br><span id="computer-score">0</span></p>
         </div>
         <hr>
-        <div class="timer-container">
+        <!-- buttons which sit below the main user/computer player area -->
+        <div class="button-container">
             <h4>How quickly can you beat the computer</h4>
             <!-- button to start the timer-->
             <button onclick="startTimer()" class="timer-button">Start timer</button>
+            <!-- button to reset the scores-->
+            <button onclick="resetScores()" class="reset-button">Reset scores</button>
         </div>
-        <div class="instructions">
+        <!-- the modal area -->
+        <div class="modal-area ">
             <div>
                 <!-- trigger/open the modal -->
                 <button id="open">How to play</button>

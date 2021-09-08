@@ -118,13 +118,13 @@ hr {
     border: 2px solid white;
 }
 
-/* timer area */
-.timer-container {
+/* buttons area for timer and reset scores */
+.button-container {
     float: none;
     align-items: center;
 }
 
-.timer-container h4 {
+.button-container h4 {
     margin-top: 0.5rem;
     margin-bottom: 0.5rem;
 }
@@ -149,7 +149,21 @@ hr {
     padding: 10px;
 }
 
-.instructions {
+.reset-button {
+    margin: 1rem;
+    background-color: #04d9c4;
+    font-family: 'Lobster';
+    font-size: 1rem;
+    color: #262223;
+    width: 200px;
+    height: 50px;
+    cursor: pointer;
+    box-shadow: 3px 3px #A3ACBD, 2px 2px #A3ACBD, 1px 1px #A3ACBD;
+    padding: 10px;
+}
+
+/* Modal area*/
+.modal-area {
     float: none;
 }
 

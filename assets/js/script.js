@@ -151,6 +151,7 @@ const timer = document.getElementById('timer');
 let timerInterval;
 
 function startTimer() {
+   resetScores();
    clearInterval(timerInterval);
    let second = 0;
    let minute = 0;
@@ -178,7 +179,10 @@ function stopTimer() {
    clearInterval(timerInterval);
 }
 
+function resetScores() {
+   document.getElementById('player-score').innerText = 0;  
+   document.getElementById('computer-score').innerText = 0;
 
-
+}
 
 
