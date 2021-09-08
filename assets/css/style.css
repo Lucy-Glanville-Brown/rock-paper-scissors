@@ -19,7 +19,7 @@ body {
     background-color: #CFDFFF;
     box-sizing: border-box;
     width: 90%;
-    height: 55vh;
+    height: 70vh;
     max-height: 550px;
     max-width: 850px;
     margin-left: auto;
@@ -82,7 +82,7 @@ body {
     font-size: 1rem;
 }
 
-#messages h2{
+#messages h2, p {
     margin-top: 0.5rem;
     margin-bottom: 0.5rem;
 }
@@ -141,6 +141,8 @@ img {
     font-family: 'Lobster';
     color: #262223;
     width: 5rem;
+    cursor: pointer;
+    box-shadow: 3px 3px #A3ACBD, 2px 2px #A3ACBD, 1px 1px #A3ACBD;
 }
 
 .instructions {
@@ -153,6 +155,8 @@ img {
     background-color: #04d9c4;
     font-family: 'Lobster';
     color: #262223;
+    cursor: pointer;
+    box-shadow: 3px 3px #A3ACBD, 2px 2px #A3ACBD, 1px 1px #A3ACBD;
 }
 
 /* the modal (background) */
