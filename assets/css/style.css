@@ -19,8 +19,8 @@ body {
     background-color: #CFDFFF;
     box-sizing: border-box;
     width: 90%;
-    height: 70vh;
-    max-height: 550px;
+    height: 65vh;
+    max-height: 450px;
     max-width: 850px;
     margin-left: auto;
     margin-right: auto;
@@ -39,7 +39,7 @@ body {
     width: 25%;
     height: 30%;
     background-color: white;
-    padding: 5px 0 5px 0;
+    padding: 10px 0 10px 0;
 }
 
 .fa-hand-rock {
@@ -139,10 +139,13 @@ img {
     margin: 1rem;
     background-color: #04d9c4;
     font-family: 'Lobster';
+    font-size: 1rem;
     color: #262223;
-    width: 5rem;
+    width: 200px;
+    height: 50px;
     cursor: pointer;
     box-shadow: 3px 3px #A3ACBD, 2px 2px #A3ACBD, 1px 1px #A3ACBD;
+    padding: 10px;
 }
 
 .instructions {
@@ -154,9 +157,13 @@ img {
     margin: 1rem;
     background-color: #04d9c4;
     font-family: 'Lobster';
+    font-size: 1rem;
+    width: 200px;
+    height: 50px;
     color: #262223;
     cursor: pointer;
     box-shadow: 3px 3px #A3ACBD, 2px 2px #A3ACBD, 1px 1px #A3ACBD;
+    padding: 10px;
 }
 
 /* the modal (background) */
@@ -222,27 +229,57 @@ img {
 
 /* media queries */
 
+/* For small to medium screen sizes from 550px wide and up */
+@media screen  and (min-width: 550px) {
+
+    .heading {
+        font-size: 3rem;
+    }
+    
+    .game-area {
+        max-height: 650px;
+        height: 75vh;
+    }
+    .control, #messages, .player, .computer, #timer, .timer-container, .timer-button, #open {
+        font-size: 1.5rem;
+    }
+}
+
+/* For medium to large screen sizes from 850px wide and up */
+@media screen  and (min-width: 850px) {
+
+    .heading {
+        font-size: 3rem;
+    }
+    
+    .game-area {
+        max-height: 750px;
+        max-width: 1000px;
+        height: 90vh;
+    }
+    .control, #messages, .player, .computer, #timer, .timer-container, .timer-button, #open{
+        font-size: 1.5rem;
+    }
+}
+
 /* For larger to extra large screens size from 1200px wide and up */
 @media screen and (min-width: 1200px) {
 
+    .heading {
+        font-size: 3rem;
+    }
+    
     .game-area {
-        min-height: 750px;
-        min-width: 1000px;
+        max-height: 950px;
+        max-width: 1500px;
+        height: 120vh;
         padding: 2%;
     }
 
-    .control {
-        font-size: 1.5rem;
-    }
-
-    #messages {
-        font-size: 1.5rem;
-    }
-
-    .player, .computer {
-        font-size: 1.5rem;
+    .control, #messages, .player, .computer, #timer, .timer-container, .timer-button, #open {
+        font-size: 2rem;
     }
 
     #open, .modal, .modal-content p{
-        font-size: 1.5rem;
+        font-size: 2rem;
     }
