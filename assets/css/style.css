@@ -19,9 +19,7 @@ body {
     background-color: #CFDFFF;
     box-sizing: border-box;
     width: 90%;
-    height: 65vh;
-    max-height: 450px;
-    max-width: 850px;
+    min-height: 60vh;
     margin-left: auto;
     margin-right: auto;
     padding: 4%;
@@ -31,7 +29,7 @@ body {
     font-family: "Lobster", sans-serif;
     text-transform: capitalize;
     letter-spacing: 1px;
-    border: none;
+    border: 2px solid #A3ACBD;
     font-size: 1rem;
     margin-left: 0.5rem;
     margin-right: 0.5rem;
@@ -115,6 +113,10 @@ body {
 img {
     width: 80%;
     height: 80%;
+}
+
+hr {
+    border: 2px solid white;
 }
 
 /* timer area */
@@ -236,45 +238,21 @@ img {
         font-size: 3rem;
     }
     
-    .game-area {
-        max-height: 650px;
-        height: 75vh;
-    }
     .control, #messages, .player, .computer, #timer, .timer-container, .timer-button, #open {
-        font-size: 1.5rem;
+        font-size: 1.2rem;
     }
 }
 
 /* For medium to large screen sizes from 850px wide and up */
 @media screen  and (min-width: 850px) {
-
-    .heading {
-        font-size: 3rem;
-    }
     
-    .game-area {
-        max-height: 750px;
-        max-width: 1000px;
-        height: 90vh;
-    }
-    .control, #messages, .player, .computer, #timer, .timer-container, .timer-button, #open{
+    .control, #messages, .player, .computer, #timer, .timer-container, .timer-button, #open {
         font-size: 1.5rem;
     }
 }
 
 /* For larger to extra large screens size from 1200px wide and up */
 @media screen and (min-width: 1200px) {
-
-    .heading {
-        font-size: 3rem;
-    }
-    
-    .game-area {
-        max-height: 950px;
-        max-width: 1500px;
-        height: 120vh;
-        padding: 2%;
-    }
 
     .control, #messages, .player, .computer, #timer, .timer-container, .timer-button, #open {
         font-size: 2rem;
