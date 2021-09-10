@@ -30,6 +30,9 @@ I also used an image resizer to get the images to the same size. https://resizei
 The colors chosen were from the main rock paper scissors (rps) image using Adobe Color Extract Theme
 
 Once the colors were chosen I used a contrast checker to decide on the text color https://contrast-grid.eightshapes.com 
+
+I also used mycolor.space to decide on the button box-shadow color for the 3 buttons coloured #04d9c4 https://mycolor.space/ 
+
 #### Typography
 I decided to use “Lato” and “San-serif” for the main body text with “Lobster” and “Sans-Serif” for the headings. These were found by exploring Google Fonts.
 
@@ -52,7 +55,7 @@ I decided to use “Lato” and “San-serif” for the main body text with “L
 ![image](https://user-images.githubusercontent.com/85178695/132877778-a5c3b2a8-293d-43e4-bea6-355fb38e98ab.png)
 
 ### Controls
-•	Three buttons 
+•	Three buttons displaying the options of either rock, paper or scissors.
 
 ![image](https://user-images.githubusercontent.com/85178695/132878291-ffe1ac36-912b-4018-889d-c3242663eea1.png)
 
@@ -75,32 +78,39 @@ I decided to use “Lato” and “San-serif” for the main body text with “L
 ![image](https://user-images.githubusercontent.com/85178695/132878088-7c99cd18-71fe-4007-a4a4-3c0812484cac.png)
 
 ### Player area
-•	Your choice: will display the users choosen 
+•	Your choice: will display the users chosen option of either rock, paper or scissors
+
 •	Player Image will show the rock, paper and scissors at the beginning of the game but will change depending on the user choice selected
+
 •	Your score: will increment by 1 when the user has won the game.
 
 ![image](https://user-images.githubusercontent.com/85178695/132879074-66d46e52-09b7-4917-a8a6-ea9f9d2bdf41.png)
 
 
 ### Computer area
-•	Your choice: will display the users choosen 
-•	Player Image will show the rock, paper and scissors at the beginning of the game but will change depending on the user choice selected
-•	Your score: will increment by 1 when the user has won the game.
+•	Computer choice: will display the computers chosen option of either rock, paper or scissors
+
+•	Computer Image will show the rock, paper and scissors at the beginning of the game but will change depending on the computer choice selected
+
+•	Computer score: will increment by 1 when the computer has won the game.
 
 ![image](https://user-images.githubusercontent.com/85178695/132879134-e4ca5bc6-a737-4d26-931e-1a55c015adc0.png)
 
 
 ### Start timer – button
+•   Button which will start the timer once it has been clicked
 
 ![image](https://user-images.githubusercontent.com/85178695/132879452-7724f204-b2dc-420a-9de5-1a30152f5d12.png)
 
 
 ### Reset scores - button
+•   Button which will reset both the user and computer scores once it has been clicked
 
 ![image](https://user-images.githubusercontent.com/85178695/132879483-a59cd1b9-a594-49b9-aa01-3260b9d5d151.png)
 
 
-### How to Play - button to open Modal
+### How to Play - button
+•   Button which will open the 'How to play' modal once it has been clicked
 
 ![image](https://user-images.githubusercontent.com/85178695/132879624-14e425e9-5d4f-4ef0-8dce-47e5e8bd2e87.png)
 
@@ -124,29 +134,34 @@ I decided to use “Lato” and “San-serif” for the main body text with “L
 
 
 ## Testing
-I have tested this game in Google Chrome, Mozilla Firefox, Safari and Microsoft Edge, as well as on my Apple iPhone SE and Huawei tablet(android.)
+I have tested this game in Google Chrome, Mozilla Firefox, Safari and Microsoft Edge, as well as on my Apple iPhone SE and Huawei tablet (android.)
 
 ### Bugs
-•	When you click on the icon within the button the Your Choice does not display the user choice of rock, paper or scissors which moves the image and heading below upwards.
+•	When you clicked on the icon within the button the Your Choice did not display the user choice of rock, paper or scissors which moved the image and heading below upwards.
 
  
 After some research I found the fix on stack overflow to use event.currentTarget.id instead of event.target.id.
+
 https://stackoverflow.com/questions/22962386/click-event-on-button-is-sending-an-icon-as-the-target  
 
 ### Validator Testing
 •	W3C Markup Validation
+
 ![html validator](https://user-images.githubusercontent.com/85178695/132874768-b34e1db7-69ad-4797-833e-b9e1788a1eaf.png)
 
 
 •	W3C CSS Validation
+
 ![css validator](https://user-images.githubusercontent.com/85178695/132874745-19e73b9b-bd1f-4267-8d1c-700355090458.png)
 
 
 •	JS Hint
+
 ![js validator](https://user-images.githubusercontent.com/85178695/132874816-b5782342-015b-4497-9f68-cababc70fd50.png)
 
 
 •	Lighthouse
+
 ![lighthouse results](https://user-images.githubusercontent.com/85178695/132874848-6d7610a3-f0fb-4cbf-a15e-5a871c14e073.png)
 
 
@@ -155,11 +170,16 @@ This website is hosted through GitHub and is deployed directly from the main bra
 
 ## Credits
 ### Media
-All images were taken from vecteezy which is an image library.
-Icons were taken from Font Awesome 
+•	All images were taken from vecteezy which is an image library.
+
+•	Icons were taken from Font Awesome 
 ### Acknowledgements
-writing modal
+My mentor Nishant Kumar suggested having the 'How to play' instructions in a modal and also to add a timer to see how quickly you can beat the computer.  
+
+I found how to create a modal on W3 Schools.
+
 https://www.w3schools.com/howto/howto_css_modals.asp
 
-writing the timer
+For the timer I followed the instructions on daily dev tips.
+
 https://daily-dev-tips.com/posts/vanilla-javascript-timer/
