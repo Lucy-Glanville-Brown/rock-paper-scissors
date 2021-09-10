@@ -1,108 +1,86 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Rock Paper Scissors
+## Portfolio Project 2: Rock, Paper, Scissors Game – Code Institute
+Rock Paper Scissors is a game which I think most people would have played at some point in their lives. It’s a simple game which can help family, friends and colleagues make decisions.
+The target audience would be people of all ages that want to play a quick game.
 
-Welcome Lucy-Glanville-Brown,
+## UX
+### User Stories
+As a user I would expect to see information on how to play the game and for the choices made to be shown for the user and computer along with the result.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+### Strategy
+My goal in the design was to include minimalist but useful information with eye catching images. This website is aimed to attract all demographics with an interest in playing a quick simple game.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+### Scope
+For the users I wanted to provide them with instructions on how to play the game with images to show the options. The game has responsive design so should function correctly across various devices such as, Mobiles, Tablet, Laptop and Desktop.
 
-## Gitpod Reminders
+### Structure
+I wanted the game to be eye catching and fun with instructions of how to play the game. 
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+### Skeleton
 
-`python3 -m http.server`
+### Surface
+#### Images
+Each of the images used have similar colours and were found on https://www.vecteezy.com/ 
+#### Colours
+The color chosen for the background was chosen using Adobe color picker from the main rock paper scissor image
+Checked colors using https://contrast-grid.eightshapes.com to figure out the text color
+#### Typography
+I decided to use “Lobster” and “San-serif” for the main body text with “Lato” and “Sans-Serif” for the headings. These were found by exploring Google Fonts.
 
-A blue button should appear to click: _Make Public_,
+## Technologies
+### Languages
+1.	HTML
+2.	CSS
+3.	JavaScript
+### Libraries
+•	Google Fonts – Lobster, Lato and Sans-serif fonts
+•	Font Awesome – used for icons throughout the website
+•	Balsamiq – used for the creation of the wireframes
 
-Another blue button should appear to click: _Open Browser_.
+## Features
+### Header
+•	Featured at the top of the page shows the game name: Rock Paper Scissors in a font that is playful and clearly contrasts with the background.
+### Game Results
+•	When the user clicks an option, the image relating to their choice is shown on their side of the game board.
+•	The JavaScript code chooses a random option for the computer player, displays the image relating to the computer’s choice, and then determine who the winner is.
+•	The winner is announced to the user under the control buttons, and the score is updated for either the user or the computer depending on who won.
+•	The results and score are clear to the user, making the game easy to play, understand who won, and what the score is.
+### Start timer – button
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+### Reset scores - button
 
-A blue button should appear to click: _Make Public_,
+### How to Play - button with Modal
+•	Instructions on how to play the game
+•	Rules for how to win the game
+•	How quickly can you beat the computer explains that you can use the timer option if you want to see how quickly you can win.
 
-Another blue button should appear to click: _Open Browser_.
+## Testing
+### Bugs
+•	When you click on the icon within the button the Your Choice does not display the user choice of rock, paper or scissors which moves the image and heading below upwards.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+ 
+After some research I found the fix on stack overflow to use event.currentTarget.id instead of event.target.id.
+https://stackoverflow.com/questions/22962386/click-event-on-button-is-sending-an-icon-as-the-target  
 
-To log into the Heroku toolbelt CLI:
+### Validator Testing
+•	W3C Markup Validation
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+•	W3C CSS Validation
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+•	JS Hint
 
-------
+•	Lighthouse
 
-## Release History
+## Deployment
+This website is hosted through GitHub and is deployed directly from the main branch. The deployed site will only update when new commits to the main branch have been pushed to GitHub.
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+## Credits
+### Media
+All images were taken from vecteezy which is an image library.
+Icons were taken from Font Awesome 
+### Acknowledgements
+writing modal
+https://www.w3schools.com/howto/howto_css_modals.asp
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
-
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
-
-**July 2 2021:** Remove extensions that are not available in Open VSX.
-
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
-
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
-
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
-
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
-
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
-
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
-------
-
-## FAQ about the uptime script
-
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
+writing the timer
+https://daily-dev-tips.com/posts/vanilla-javascript-timer/
