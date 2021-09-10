@@ -48,6 +48,15 @@ I decided to use “Lato” and “San-serif” for the main body text with “L
 ## Features
 ### Header
 •	Featured at the top of the page shows the game name: Rock Paper Scissors in a font that is playful and clearly contrasts with the background.
+
+![image](https://user-images.githubusercontent.com/85178695/132877778-a5c3b2a8-293d-43e4-bea6-355fb38e98ab.png)
+
+### Controls
+•	Three buttons 
+
+![image](https://user-images.githubusercontent.com/85178695/132878291-ffe1ac36-912b-4018-889d-c3242663eea1.png)
+
+
 ### Game Results
 •	When the user clicks an option, the image relating to their choice is shown on their side of the game board.
 
@@ -56,16 +65,55 @@ I decided to use “Lato” and “San-serif” for the main body text with “L
 •	The winner is announced to the user under the control buttons, and the score is updated for either the user or the computer depending on who won.
 
 •	The results and score are clear to the user, making the game easy to play, understand who won, and what the score is.
+
+![image](https://user-images.githubusercontent.com/85178695/132877949-f1790f1c-30c5-471a-979d-a6af7b53d26d.png)
+
+### Time taken
+•	The time taken to beat the computer is shown here if the user has been using the timer.
+
+
+![image](https://user-images.githubusercontent.com/85178695/132878088-7c99cd18-71fe-4007-a4a4-3c0812484cac.png)
+
+### Player area
+•	Your choice: will display the users choosen 
+•	Player Image will show the rock, paper and scissors at the beginning of the game but will change depending on the user choice selected
+•	Your score: will increment by 1 when the user has won the game.
+
+![image](https://user-images.githubusercontent.com/85178695/132879074-66d46e52-09b7-4917-a8a6-ea9f9d2bdf41.png)
+
+
+### Computer area
+•	Your choice: will display the users choosen 
+•	Player Image will show the rock, paper and scissors at the beginning of the game but will change depending on the user choice selected
+•	Your score: will increment by 1 when the user has won the game.
+
+![image](https://user-images.githubusercontent.com/85178695/132879134-e4ca5bc6-a737-4d26-931e-1a55c015adc0.png)
+
+
 ### Start timer – button
+
+![image](https://user-images.githubusercontent.com/85178695/132879452-7724f204-b2dc-420a-9de5-1a30152f5d12.png)
+
 
 ### Reset scores - button
 
-### How to Play - button with Modal
+![image](https://user-images.githubusercontent.com/85178695/132879483-a59cd1b9-a594-49b9-aa01-3260b9d5d151.png)
+
+
+### How to Play - button to open Modal
+
+![image](https://user-images.githubusercontent.com/85178695/132879624-14e425e9-5d4f-4ef0-8dce-47e5e8bd2e87.png)
+
+
+### How to Play - the Modal
 •	Instructions on how to play the game
 
 •	Rules for how to win the game
 
 •	How quickly can you beat the computer explains that you can use the timer option if you want to see how quickly you can win.
+
+![image](https://user-images.githubusercontent.com/85178695/132879723-3501b805-2583-4ad4-81db-ba978bdc692c.png)
+
 
 ## Future Enhancements
 •	Game Modes - options to select how many rounds you would like to play like best of 5 rounds
