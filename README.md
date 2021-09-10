@@ -22,13 +22,24 @@ I wanted the game to be eye catching and fun with instructions of how to play th
 ### Skeleton
 The wireframes were created using Balsamiq.
 
+![image](https://user-images.githubusercontent.com/85178695/132922311-f204ca44-b51e-4b55-9b10-3bf222a14119.png)
+
+
+![image](https://user-images.githubusercontent.com/85178695/132922284-b6d0dfc0-61a0-4280-9767-6bbc51330444.png)
+
+
+![image](https://user-images.githubusercontent.com/85178695/132922240-41bde68e-af03-421a-ae78-e73527b7ea5f.png)
+
+
 ### Surface
 #### Images
 The main rock paper scissors (rps) image was found on https://www.vecteezy.com/ and I cropped the image down to get the indivdual images for rock, paper and scissors. 
 
-![rps](https://user-images.githubusercontent.com/85178695/132890021-7fa11651-e256-4f14-8921-e9dea23a999b.png)![rock](https://user-images.githubusercontent.com/85178695/132890034-97df96f2-7ebc-4642-816d-5481973fa040.png)
+![image](https://user-images.githubusercontent.com/85178695/132922347-8d507dcc-b577-4057-8727-4a17e21bcfca.png)
 
-![paper](https://user-images.githubusercontent.com/85178695/132890060-24d41124-4e5d-4751-b71a-96dd82cdfd92.png)![scissors](https://user-images.githubusercontent.com/85178695/132890070-8cdeefe8-4aaf-4447-9ac3-25f05c3c55b0.png)
+
+![image](https://user-images.githubusercontent.com/85178695/132922376-09c361a6-049d-440b-83b7-066e7f7d8a23.png)
+
 
 
 I also used an image resizer to get the images to the same size. https://resizeimage.net/
