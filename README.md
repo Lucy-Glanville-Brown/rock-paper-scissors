@@ -20,23 +20,20 @@ For the users I wanted to provide them with instructions on how to play the game
 I wanted the game to be eye catching and fun with instructions of how to play the game. 
 
 ### Skeleton
+The wireframes were created using Balsamiq.
 
 ### Surface
 #### Images
 The main rock paper scissors (rps) image was found on https://www.vecteezy.com/ and I cropped the image down to get the indivdual images for rock, paper and scissors. 
 
-![rps](https://user-images.githubusercontent.com/85178695/132890021-7fa11651-e256-4f14-8921-e9dea23a999b.png)
+![rps](https://user-images.githubusercontent.com/85178695/132890021-7fa11651-e256-4f14-8921-e9dea23a999b.png)![rock](https://user-images.githubusercontent.com/85178695/132890034-97df96f2-7ebc-4642-816d-5481973fa040.png)
 
-![rock](https://user-images.githubusercontent.com/85178695/132890034-97df96f2-7ebc-4642-816d-5481973fa040.png)
-
-![paper](https://user-images.githubusercontent.com/85178695/132890060-24d41124-4e5d-4751-b71a-96dd82cdfd92.png)
-
-![scissors](https://user-images.githubusercontent.com/85178695/132890070-8cdeefe8-4aaf-4447-9ac3-25f05c3c55b0.png)
+![paper](https://user-images.githubusercontent.com/85178695/132890060-24d41124-4e5d-4751-b71a-96dd82cdfd92.png)![scissors](https://user-images.githubusercontent.com/85178695/132890070-8cdeefe8-4aaf-4447-9ac3-25f05c3c55b0.png)
 
 
 I also used an image resizer to get the images to the same size. https://resizeimage.net/
 #### Colours
-The colors chosen were from the main rock paper scissors (rps) image using Adobe Color Extract Theme
+The colors chosen were from the main rock paper scissors (rps) image using Adobe Color Extract Theme. https://color.adobe.com/create/image
 
 ![Adobe Color Scheme](https://user-images.githubusercontent.com/85178695/132889839-043d0e89-0e7d-4a68-8078-1c9e7394eb3f.png)
 
@@ -162,9 +159,13 @@ I have tested this game in Google Chrome, Mozilla Firefox, Safari and Microsoft 
  
 After some research I found the fix on stack overflow to use event.currentTarget.id instead of event.target.id.
 
-https://stackoverflow.com/questions/22962386/click-event-on-button-is-sending-an-icon-as-the-target  
+https://stackoverflow.com/questions/22962386/click-event-on-button-is-sending-an-icon-as-the-target 
+
+Javascript code before change
 
 ![javascript code before change](https://user-images.githubusercontent.com/85178695/132890213-a97516b6-0560-409c-8cc2-a9049bcafe0f.png)
+
+Javascript code after change
 
 ![javascript code after change](https://user-images.githubusercontent.com/85178695/132890221-e24c34d1-d3cb-49c1-8828-5b9592e8bcee.png)
 

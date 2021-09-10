@@ -26,7 +26,6 @@ possibleChoices.forEach(possibleChoice => possibleChoice.addEventListener('click
  */
  function generateComputerChoice() {
    const randomNumber = Math.floor(Math.random() * 3);
-   console.log(randomNumber); //remove once tested
    if (randomNumber === 0) {
       computerChoice = 'rock';
    }
@@ -117,6 +116,11 @@ function getResult() {
     document.getElementById('computer-score').innerText = ++computerScore;
  }
 
+
+ /**
+  * Modal pop up
+  */
+
  // Get the modal
 var modal = document.getElementById("myModal");
 
@@ -147,6 +151,7 @@ window.onclick = function(event) {
  * Timer to start/stop when user clicks on button
  */
 
+// code taken from https://daily-dev-tips.com/posts/vanilla-javascript-timer/
 const timer = document.getElementById('timer');
 let timerInterval;
 
@@ -175,14 +180,19 @@ function startTimer() {
    }, 1000);
 }
 
+/**
+ * function to stop the timer
+ */ 
 function stopTimer() {
    clearInterval(timerInterval);
 }
 
+/**
+ * function to reset scores
+ */
 function resetScores() {
    document.getElementById('player-score').innerText = 0;  
    document.getElementById('computer-score').innerText = 0;
-
 }
 
 
