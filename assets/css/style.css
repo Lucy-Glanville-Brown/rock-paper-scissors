@@ -251,7 +251,7 @@ hr {
         font-size: 3rem;
     }
     
-    .control, #messages, .player, .computer, #timer, .timer-container, .timer-button, #open {
+    .control, #messages, .player, .computer, #timer, .timer-container, .timer-button, .reset-button, #open {
         font-size: 1.2rem;
     }
 }
@@ -259,7 +259,7 @@ hr {
 /* For medium to large screen sizes from 850px wide and up */
 @media screen  and (min-width: 850px) {
     
-    .control, #messages, .player, .computer, #timer, .timer-container, .timer-button, #open {
+    .control, #messages, .player, .computer, #timer, .timer-container, .timer-button, .reset-button, #open {
         font-size: 1.5rem;
     }
 }
@@ -267,7 +267,7 @@ hr {
 /* For larger to extra large screens size from 1200px wide and up */
 @media screen and (min-width: 1200px) {
 
-    .control, #messages, .player, .computer, #timer, .timer-container, .timer-button, #open {
+    .control, #messages, .player, .computer, #timer, .timer-container, .timer-button, .reset-button, #open {
         font-size: 2rem;
     }
 

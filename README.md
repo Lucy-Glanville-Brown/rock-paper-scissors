@@ -34,7 +34,9 @@ I decided to use “Lobster” and “San-serif” for the main body text with �
 3.	JavaScript
 ### Libraries
 •	Google Fonts – Lobster, Lato and Sans-serif fonts
+
 •	Font Awesome – used for icons throughout the website
+
 •	Balsamiq – used for the creation of the wireframes
 
 ## Features
@@ -42,8 +44,11 @@ I decided to use “Lobster” and “San-serif” for the main body text with �
 •	Featured at the top of the page shows the game name: Rock Paper Scissors in a font that is playful and clearly contrasts with the background.
 ### Game Results
 •	When the user clicks an option, the image relating to their choice is shown on their side of the game board.
+
 •	The JavaScript code chooses a random option for the computer player, displays the image relating to the computer’s choice, and then determine who the winner is.
+
 •	The winner is announced to the user under the control buttons, and the score is updated for either the user or the computer depending on who won.
+
 •	The results and score are clear to the user, making the game easy to play, understand who won, and what the score is.
 ### Start timer – button
 
