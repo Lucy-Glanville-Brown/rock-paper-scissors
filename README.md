@@ -51,8 +51,18 @@ I decided to use “Lobster” and “San-serif” for the main body text with �
 
 ### How to Play - button with Modal
 •	Instructions on how to play the game
+
 •	Rules for how to win the game
+
 •	How quickly can you beat the computer explains that you can use the timer option if you want to see how quickly you can win.
+
+## Future Enhancements
+•	Game Modes - options to select how many rounds you would like to play like best of 5 rounds
+
+•	Difficulty - options to select the difficulty levels
+
+•	Multiplayer - option to play against another user or to invite someone to play with you
+
 
 ## Testing
 ### Bugs
