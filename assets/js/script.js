@@ -13,7 +13,7 @@ let result;
  * Add event listener for all control buttons
  */
 possibleChoices.forEach(possibleChoice => possibleChoice.addEventListener('click', (event) => {
-   userChoice = event.target.id;
+   userChoice = event.currentTarget.id;
    userChoiceDisplay.innerHTML = userChoice;
    generateComputerChoice();
    getResult();
