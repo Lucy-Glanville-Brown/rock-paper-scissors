@@ -20,12 +20,15 @@ I wanted the game to be eye catching and fun with instructions of how to play th
 
 ### Surface
 #### Images
-Each of the images used have similar colours and were found on https://www.vecteezy.com/ 
+The main rock paper scissors (rps) image was found on https://www.vecteezy.com/ and I cropped the image down to get the indivdual images for rock, paper and scissors. 
+
+I also used an image resizer to get the images to the same size. https://resizeimage.net/
 #### Colours
-The color chosen for the background was chosen using Adobe color picker from the main rock paper scissor image
-Checked colors using https://contrast-grid.eightshapes.com to figure out the text color
+The colors chosen were from the main rock paper scissors (rps) image using Adobe Color Extract Theme
+
+Once the colors were chosen I used a contrast checker to decide on the text color https://contrast-grid.eightshapes.com 
 #### Typography
-I decided to use “Lobster” and “San-serif” for the main body text with “Lato” and “Sans-Serif” for the headings. These were found by exploring Google Fonts.
+I decided to use “Lato” and “San-serif” for the main body text with “Lobster” and “Sans-Serif” for the headings. These were found by exploring Google Fonts.
 
 ## Technologies
 ### Languages
@@ -70,6 +73,8 @@ I decided to use “Lobster” and “San-serif” for the main body text with �
 
 
 ## Testing
+I have tested this game in Google Chrome, Mozilla Firefox, Safari and Microsoft Edge, as well as on my Apple iPhone SE and Huawei tablet(android.)
+
 ### Bugs
 •	When you click on the icon within the button the Your Choice does not display the user choice of rock, paper or scissors which moves the image and heading below upwards.
 
