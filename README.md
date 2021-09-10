@@ -3,6 +3,9 @@
 Rock Paper Scissors is a game which I think most people would have played at some point in their lives. It’s a simple game which can help family, friends and colleagues make decisions.
 The target audience would be people of all ages that want to play a quick game.
 
+![Am i responsive](https://user-images.githubusercontent.com/85178695/132874378-571f1939-e772-4d69-8bd6-3bf5a39cbcbd.png)
+
+
 ## UX
 ### User Stories
 As a user I would expect to see information on how to play the game and for the choices made to be shown for the user and computer along with the result.
@@ -84,12 +87,20 @@ https://stackoverflow.com/questions/22962386/click-event-on-button-is-sending-an
 
 ### Validator Testing
 •	W3C Markup Validation
+![html validator](https://user-images.githubusercontent.com/85178695/132874768-b34e1db7-69ad-4797-833e-b9e1788a1eaf.png)
+
 
 •	W3C CSS Validation
+![css validator](https://user-images.githubusercontent.com/85178695/132874745-19e73b9b-bd1f-4267-8d1c-700355090458.png)
+
 
 •	JS Hint
+![js validator](https://user-images.githubusercontent.com/85178695/132874816-b5782342-015b-4497-9f68-cababc70fd50.png)
+
 
 •	Lighthouse
+![lighthouse results](https://user-images.githubusercontent.com/85178695/132874848-6d7610a3-f0fb-4cbf-a15e-5a871c14e073.png)
+
 
 ## Deployment
 This website is hosted through GitHub and is deployed directly from the main branch. The deployed site will only update when new commits to the main branch have been pushed to GitHub.
