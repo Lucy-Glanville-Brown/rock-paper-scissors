@@ -25,13 +25,31 @@ I wanted the game to be eye catching and fun with instructions of how to play th
 #### Images
 The main rock paper scissors (rps) image was found on https://www.vecteezy.com/ and I cropped the image down to get the indivdual images for rock, paper and scissors. 
 
+![rps](https://user-images.githubusercontent.com/85178695/132890021-7fa11651-e256-4f14-8921-e9dea23a999b.png)
+
+![rock](https://user-images.githubusercontent.com/85178695/132890034-97df96f2-7ebc-4642-816d-5481973fa040.png)
+
+![paper](https://user-images.githubusercontent.com/85178695/132890060-24d41124-4e5d-4751-b71a-96dd82cdfd92.png)
+
+![scissors](https://user-images.githubusercontent.com/85178695/132890070-8cdeefe8-4aaf-4447-9ac3-25f05c3c55b0.png)
+
+
 I also used an image resizer to get the images to the same size. https://resizeimage.net/
 #### Colours
 The colors chosen were from the main rock paper scissors (rps) image using Adobe Color Extract Theme
 
+![Adobe Color Scheme](https://user-images.githubusercontent.com/85178695/132889839-043d0e89-0e7d-4a68-8078-1c9e7394eb3f.png)
+
+
 Once the colors were chosen I used a contrast checker to decide on the text color https://contrast-grid.eightshapes.com 
 
+![contrast grid](https://user-images.githubusercontent.com/85178695/132889872-12f7683e-765c-4525-a995-f55024360445.png)
+
+
 I also used mycolor.space to decide on the button box-shadow color for the 3 buttons coloured #04d9c4 https://mycolor.space/ 
+
+![ColorSpace buttton shading palette](https://user-images.githubusercontent.com/85178695/132889907-64aa62ab-f8f9-4972-8837-f3a79de6d0e1.png)
+
 
 #### Typography
 I decided to use “Lato” and “San-serif” for the main body text with “Lobster” and “Sans-Serif” for the headings. These were found by exploring Google Fonts.
@@ -139,10 +157,18 @@ I have tested this game in Google Chrome, Mozilla Firefox, Safari and Microsoft 
 ### Bugs
 •	When you clicked on the icon within the button the Your Choice did not display the user choice of rock, paper or scissors which moved the image and heading below upwards.
 
+![icon button bug](https://user-images.githubusercontent.com/85178695/132890169-60161195-97df-4098-9084-d2b1f9dad8fb.png)
+
  
 After some research I found the fix on stack overflow to use event.currentTarget.id instead of event.target.id.
 
 https://stackoverflow.com/questions/22962386/click-event-on-button-is-sending-an-icon-as-the-target  
+
+![javascript code before change](https://user-images.githubusercontent.com/85178695/132890213-a97516b6-0560-409c-8cc2-a9049bcafe0f.png)
+
+![javascript code after change](https://user-images.githubusercontent.com/85178695/132890221-e24c34d1-d3cb-49c1-8828-5b9592e8bcee.png)
+
+
 
 ### Validator Testing
 •	W3C Markup Validation
