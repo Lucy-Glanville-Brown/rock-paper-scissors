@@ -8,7 +8,55 @@ The target audience would be people of all ages that want to play a quick game.
 
 ## UX
 ### User Stories
-As a user I would expect to see information on how to play the game and for the choices made to be shown for the user and computer along with the result.
+Create an interactive game Rock, Paper, Scissors where the user challenges the computer.
+
+* At the top of the screen, display 3 contorl buttons for the user to select their choice.
+
+* Button 1 will have the word Rock, and an icon showing the rock hand signal.
+
+* Button 2 will have the word Paper, and an icon showing the paper hand signal.
+
+* Button 3 will have the word Scissors, and an icon showing the scissors hand signal.
+
+* Shadow the buttons for 3d effect to show the user they are clickable.
+
+* Results area to show the results of the game
+
+* Timer to see how quickly you can beat the computer
+
+* Below this show the main game area which will display the user and computer choices as well as the main rock, paper scissors image.
+
+* These images will change as the code accepts the User choice and generates the Computer choice. The images will update to show an image for the choices made, either rock, paper or scissors.
+
+* Below the images show “Your Score:” and “Computer Score:”. The scores will incremenent by 1 when either the user or computer wins.
+
+* Once the user has pressed one of the control buttons, the code will generate a random number between 0 and 2 to reflect the computers choice.  Both choices will then be shown as a single word and image in the game area for the user and computer, and the score below will be updated accordingly.
+
+    The rules are as follows:-
+
+    * Rock beats Scissors
+    * Scissors beats Paper
+    * Paper beats Rock
+
+    If the users wins, add 1 to the users score and update the results with "You win"
+
+    If the computer wins, add 1 to the computers score and update the results with "You lost"
+
+    If the user and computer select the same choice this will be a draw and the scores will not need updating. Display the result as "It's a draw"
+
+* Code an optional timer using the words “How quickly can you beat the computer” with a button to "Start timer". If the “Start timer” button is pressed, the code will start the mmss process and this time will be displayed in the “Time taken” area and update every second until the User wins the game.
+
+* Reset scores button to reset the scores
+
+* "How to play" button which has a modal popup which explains the rules of the game.
+
+    The popup should include the following
+
+    * Instruction of how to play the game
+
+    * Rules for the game showing rock beat scissors, scissors beats paper and paper beats rock
+
+    * How quickly you can beat the comptuter instructions on how to use the timer
 
 ### Strategy
 My goal in the design was to include minimalist but useful information with eye catching images. This website is aimed to attract all demographics with an interest in playing a quick simple game.
