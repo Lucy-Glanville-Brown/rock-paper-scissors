@@ -5,12 +5,13 @@ The target audience would be people of all ages that want to play a quick game.
 
 ![Am i responsive](https://user-images.githubusercontent.com/85178695/132874378-571f1939-e772-4d69-8bd6-3bf5a39cbcbd.png)
 
+[View the live project here](https://lucy-glanville-brown.github.io/rock-paper-scissors/)
 
 ## UX
 ### User Stories
 Create an interactive game Rock, Paper, Scissors where the user challenges the computer.
 
-* At the top of the screen, display 3 contorl buttons for the user to select their choice.
+* At the top of the screen, display 3 control buttons for the user to select their choice.
 
 * Button 1 will have the word Rock, and an icon showing the rock hand signal.
 
@@ -28,7 +29,7 @@ Create an interactive game Rock, Paper, Scissors where the user challenges the c
 
 * These images will change as the code accepts the User choice and generates the Computer choice. The images will update to show an image for the choices made, either rock, paper or scissors.
 
-* Below the images show “Your Score:” and “Computer Score:”. The scores will incremenent by 1 when either the user or computer wins.
+* Below the images show “Your Score:” and “Computer Score:”. The scores will increment by 1 when either the user or computer wins.
 
 * Once the user has pressed one of the control buttons, the code will generate a random number between 0 and 2 to reflect the computers choice.  Both choices will then be shown as a single word and image in the game area for the user and computer, and the score below will be updated accordingly.
 
@@ -56,7 +57,7 @@ Create an interactive game Rock, Paper, Scissors where the user challenges the c
 
     * Rules for the game showing rock beat scissors, scissors beats paper and paper beats rock
 
-    * How quickly you can beat the comptuter instructions on how to use the timer
+    * How quickly you can beat the computer instructions on how to use the timer
 
 ### Strategy
 My goal in the design was to include minimalist but useful information with eye catching images. This website is aimed to attract all demographics with an interest in playing a quick simple game.
@@ -81,7 +82,7 @@ The wireframes were created using Balsamiq.
 
 ### Surface
 #### Images
-The main rock paper scissors (rps) image was found on https://www.vecteezy.com/ and I cropped the image down to get the indivdual images for rock, paper and scissors. 
+The main rock paper scissors (rps) image was found on https://www.vecteezy.com/ and I cropped the image down to get the individual images for rock, paper and scissors. 
 
 ![image](https://user-images.githubusercontent.com/85178695/132922347-8d507dcc-b577-4057-8727-4a17e21bcfca.png)
 
@@ -92,12 +93,12 @@ The main rock paper scissors (rps) image was found on https://www.vecteezy.com/ 
 
 I also used an image resizer to get the images to the same size. https://resizeimage.net/
 #### Colours
-The colors chosen were from the main rock paper scissors (rps) image using Adobe Color Extract Theme. https://color.adobe.com/create/image
+The colours chosen were from the main rock paper scissors (rps) image using Adobe Color Extract Theme. https://color.adobe.com/create/image
 
 ![Adobe Color Scheme](https://user-images.githubusercontent.com/85178695/132889839-043d0e89-0e7d-4a68-8078-1c9e7394eb3f.png)
 
 
-Once the colors were chosen I used a contrast checker to decide on the text color https://contrast-grid.eightshapes.com 
+Once the colours were chosen I used a contrast checker to decide on the text colour https://contrast-grid.eightshapes.com 
 
 ![contrast grid](https://user-images.githubusercontent.com/85178695/132889872-12f7683e-765c-4525-a995-f55024360445.png)
 
@@ -238,11 +239,11 @@ After some research I found the fix on stack overflow to use event.currentTarget
 
 https://stackoverflow.com/questions/22962386/click-event-on-button-is-sending-an-icon-as-the-target 
 
-Javascript code before change
+JavaScript code before change
 
 ![javascript code before change](https://user-images.githubusercontent.com/85178695/132890213-a97516b6-0560-409c-8cc2-a9049bcafe0f.png)
 
-Javascript code after change
+JavaScript code after change
 
 ![javascript code after change](https://user-images.githubusercontent.com/85178695/132890221-e24c34d1-d3cb-49c1-8828-5b9592e8bcee.png)
 
@@ -271,6 +272,15 @@ Javascript code after change
 
 ## Deployment
 This website is hosted through GitHub and is deployed directly from the main branch. The deployed site will only update when new commits to the main branch have been pushed to GitHub.
+
+### GitHub Pages
+The project was deployed to GitHub Pages using the following steps:
+1.	Log in to GitHub and locate the GitHub Repository
+2.  Click on 'Settings'
+3.  Scroll down and click on 'Pages' on the left-hand side menu.
+4.  Select the 'Branch' 'master' and click on 'Save'.
+5.  Allow GitHub a few minutes to deploy the website and then refresh the page.
+6.  Website deployed.
 
 ## Credits
 ### Media
